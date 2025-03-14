@@ -6,9 +6,8 @@ c/*
 c/*.o
 !c/**/
 !c/**/*.c
-!c/**/lib/
-!c/**/lib/*.a
-!c/**/lib/*.h
+!c/**/*.h
+!c/**/*.a
 !c/**/Makefile*
 
 #Java
