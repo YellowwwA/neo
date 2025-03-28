@@ -21,7 +21,7 @@ connection.connect(function (err) {
 app.get('/', function (req, res) {
     connection.query('SELECT * FROM st_info', function (err, rows, fields) {
         connection.end();
-    if(err) {
+    if(!err) {
         res.send(rows);
         console.log("The solution is:", rows);
     }else {
@@ -31,5 +31,5 @@ app.get('/', function (req, res) {
 })
 
 app.listen(8000,function () {
-    console.log("8000 Port : Server Started~!!\n\n");
+    console.log("8000 Port : Server Started~!!\n");
 })
