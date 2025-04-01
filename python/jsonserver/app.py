@@ -20,7 +20,8 @@ async def getUsers():
 
 @app.post(path='/users')
 async def postUsers(id:str, name: str):
-    response = requests.get(base_url, json=data)
+    data = dict(id=id, name=name)
+    response = requests.post(base_url, json=data)
     return response.json()
 
 @app.get(path='/user/params1')
