@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function month(n) { // 함수 작성
+	            let m = parseInt(n); // 문자열 n을 숫자로 바꿈	
+                let date =1;
+                while(isNaN(m) || (m != 28 && m == 30 && m == 31)){
+
+                    alert("다시 입력하세요 ." + m);
+                 } 
+                }
+                for(let i=1; i<=4; i++) {  
+                    for(let j =1; j<=7; j++){
+                        document.write( "&nbsp&nbsp" + date + "&nbsp");
+                        date++;
+                    }
+                    document.write( "<br>");
+                } 
+                if(m >= 30)
+                {
+                    date++;
+                    document.write( date+" ");
+                    date++;
+                }
+                if(m == 31)
+                {
+                    document.write( date+" ");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h3>while문을 이용해서 달력 출력</h3>
+<hr>
+Sun Mon Tue Wed Thu Fri Sat
+<br>
+<script>
+	let n = prompt("원하는 달의 일수를 입력하세요(28, 30, 31 중 택일)"); // n은 문자열
+	month(n); // 함수 호출
+</script>
+    </body>
+</html>
