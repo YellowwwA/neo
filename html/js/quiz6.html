@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>중복없이 랜덤 숫자 발생</title>
+  </head>
+  <body>
+    <h3>중복없이 랜덤 숫자 발생</h3>
+    <hr />
+    <script>
+      while(true) {
+        let input = prompt("두개의 숫자(배열의크기, 랜덤최대값)를 입력하세요.(예 : 5,10)", '5,10');
+        let number = parseInt(input.split(",")[0]);
+        let max = parseInt(input.split(",")[1]);
+        if(number > max)
+        {
+          alert("첫번째 숫자는 두번째 숫자보다 작거나 같아야 합니다.");
+          continue;
+        }
+        else {
+          var array = new Array(number);
+          for(let i=0; i<number; i++)
+          {
+            array[i] = Math.floor(Math.random() * max + 1);
+            for(let j = 0; j<i; j++)
+            {
+              if(array[i] == array[j])
+              {
+                i--;
+                continue;
+              }
+            }
+          }
+        }
+        break;
+      }
+
+      document.write(`배열의 길이 : ${array.length} <br>`);
+      document.write(`입력된 배열 : ${array}`);
+
+    </script>
+  </body>
+</html>
