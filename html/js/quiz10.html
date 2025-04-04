@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>프로토타입으로 Car 객체 만들기</title>
+    <script>
+      function Car(brand, grade, maxfuel, displacement, price) {
+        this.brand = brand,
+        this.grade = grade,
+        this.maxfuel = maxfuel,
+        this.displacement = displacement,
+        this.price = 30000
+      
+        //Method
+        
+        this.info = function() {
+          this.brand = brand;
+          this.grade = grade;
+          this.maxfuel = maxfuel;
+          this.displacement = displacement;
+          this.price = price;
+
+          document.write(`brand : ${this.brand} <br>`);
+          document.write(`grade : ${this.grade} <br>`);
+          document.write(`maxfuel : ${this.maxfuel} <br>`);
+          document.write(`displacement : ${this.displacement} <br>`);
+          document.write(`price : ${this.price} <br>`);
+          document.write(`<hr />`);
+          return brand;
+        },
+        this.drive = function (from, to, distance) {
+          this.maxfuel -= distance;
+          this.displacement += distance;
+          document.write(`${this.brand} 차량이 ${from}에서 ${to}까지 ${distance}Km 주행하셨습니다. <br>`);
+          document.write(`총 주행거리는 ${this.displacement} 입니다. <br>`);
+          document.write(`잔여연료량 ${this.maxfuel}입니다. <br>`);
+          if(this.maxfuel< 50)
+            document.write("주유가 필요합니다.<br>");
+          document.write(`<hr />`);
+
+          return maxfuel;
+        },
+        this.refueling = function (amount) {
+          this.maxfuel += amount;
+          document.write(`${amount}L 주유하여 잔여 연료량은 ${this.maxfuel}입니다. <br>`);
+          document.write(`<hr />`);
+
+          return maxfuel;
+        }
+    }
+      
+
+    </script>
+  </head>
+  <body>
+    <h3>프로토타입으로 Car 객체 만들기</h3>
+    <hr />
+    <script>
+      let benz = new Car("Benz", "SUV", 900, 4000, 3000);
+      benz.info();
+      benz.drive("Seoul", "Busan", 400);
+      benz.drive("Busan", "Incheon", 460);
+      benz.refueling(860);
+
+      let bmw = new Car("BMW", "Sedan", 500, 2500, 2000);
+      bmw.info();
+      bmw.drive("Seoul", "Daejeon", 300);
+      bmw.refueling(200);
+      bmw.drive("Daejeon", "Seoul", 300);
+    
+    </script>
+  </body>
+</html>
