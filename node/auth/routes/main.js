@@ -22,6 +22,58 @@ app.get('/Hello', (req,res) => {
     res.send('Hello World!!')
 })
 
+
+app.post('/login', (req, res) => {
+    const {id, pw} = req.body;
+    const result = connection.query('select * from user where userid = ? and passwd = ?', [id, pw]);  
+    if(result.length == 0)
+    {
+        res.redirect('error.html')
+    }
+    if(id == 'admin' || id == 'root') {
+        console.log(id + " => Administrator Logined")
+        res.redirect('member.html')
+    }
+    else {
+        console.log(id + "=> User Logined")
+        res.redirect('main.html')
+    }
+})
+
+//register
+app.post('/register', (req,res) => {
+    const{ id, pw} = req.body;
+    if(id == ""){
+        res.redirect('register.html');
+    } else {
+        let result = connection.query("select * from user where userid=?", [id]);
+        if(result.length > 0) {
+            res.writeHead(200);
+            var template = `
+                <!DOCTYPE html>
+                <head>
+                    <title>Error</title>
+                </head>
+                <body>
+                    <div>
+                    <h4 style="margin-left:30px">이미 존재하는 아이디 입니다. </h4>
+                    <a href="register.html" style="margin-left:30px">다시 시도하기</a>
+                </body>
+                </html>
+            `;
+            res.end(template);
+        }
+        else {
+            const result = connection.query("insert into user values (?, ?)", [id, pw]);
+            console.log(result);
+            res.redirect('/');
+        }
+    }
+
+})
+
+
+
 app.get('/select', (req, res) => {
     const result = connection.query('select * from user');
     console.log(result);
@@ -56,30 +108,6 @@ app.post('/delete', (req, res) => {
     res.redirect('/select');
 })
 
-app.post('/login', (req, res) => {
-    const {id, pw} = req.body;
-    const result = connection.query('select * from user where userid = ? and passwd = ?', [id, pw]);  
-    if(result.length == 0)
-    {
-        res.redirect('error.html')
-    }
-    if(id == 'admin' || id == 'root') {
-        console.log(id + " => Administrator Logined")
-        res.redirect('member.html')
-    }
-    else {
-        console.log(id + "=> User Logined")
-        res.redirect('main.html')
-    }
-})
-
-//register
-app.post('/register', (req,res) => {
-    const{ id, pw} = req.body;
-    const result = connection.query("insert into user values (?, ?)", [id, pw]);
-    console.log(result);
-    res.redirect('/');
-})
 
 
 module.exports = app;
