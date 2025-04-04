@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>User Authentication</title>
+        <title>Main Page</title>
         <link type="text/css" rel="stylesheet" href="mystyle.css">
         <script>
             let id = "";
@@ -15,7 +15,7 @@
                     results = regex.exec(location.search);
                 return results == null
                     ? ""
-                    : decodeURIComponent(results[1].replace(/\+/g, " "));
+                    : decodeURIComponent(results[i].replace(/\+/g, " "));
             }
 
             id = getParameter("id");
@@ -51,28 +51,29 @@
             function logout() {
                 sessionStorage.removeItem(id);
             }
+
+            function gohome() {
+                location.href=`user.html?id=${id}`;
+            }
         </script>
     </head>
     <body onload="login()" onunload="logout()">
-        <h3>User Authentication</h3>
-        <hr />
-        <div class="box" style="height:250px;">
-        <form action="/insert" method="post" name="userForm" target="targetURL">
-            <p>Userid &nbsp;<input type="text" name="id" size="10"></p>
-            <p>Password &nbsp;<input type="password" name="pw" size="10"></p>
-            <p>DEPT &nbsp;<input type="text" name="dept" size="10"></p>
-            <div class="box-inner">
-            <input type="button" value="get select" onclick='document.targetURL.location.href="/select"'>
-            <input type="button" value="get selectQuery" onclick='document.targetURL.location.href="/selectQuery?id="+document.userForm.id.value'/><p>
-            <input type="submit" value="post insert" />&nbsp;&nbsp;
-            <input type="submit" value="post update" formaction="/update"/>&nbsp;&nbsp;
-            <input type="submit" value="post delete" formaction="/delete"/><p>
-            </div>
-        </form>
-        </div>
-        <hr>
-        <iframe name="targetURL" width="90%" height="500"
-        style="border:none" src="http://192.168.1.40:8000/Hello">
+        <nav id="menubar">
+            <ul>
+            <li>
+                <a href="javascript:void(0);" onclick="gohome();">Home</a>
+            </li>
+            <li>
+                <a href="about.html" target="lower">AboutMe</a>
+            </li>
+            <li style="position: fixed; right: 10px;">
+                <a href="index.html">logout</a>
+            </li>
+            </ul>
+        </nav>
+        <div class="box-inner">
+        <iframe name="lower" width="70%" height="500" style="border:none" src="main.html">
         </iframe>
+        </div>
     </body>
 </html>
