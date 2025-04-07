@@ -32,7 +32,7 @@
                         location.href="index.html";
                     }else {
                         for(var i=0; i < sessionStorage.length; i++){
-                            if(id == sessionStorage.key[i]) {
+                            if(id == sessionStorage.key(i)) {
                                 sessionStorage.setItem(id, now);
                                 return; 
                             }
