@@ -165,26 +165,23 @@ app.get('/selectQuery', (req, res) => {
             template_result(result, res);
         }
     }
-
 })
 
-//Request o, Query o
+// Request O, Query 0
 app.post('/selectQuery', (req, res) => {
     const id = req.body.id;
-    if( id == '') {
-        // res.send('User-id is empty');
+    if (id == '') {
         res.write("<script>alert('User-id is empty!');</script>");
-    }
-    else {
-        const result = connection.query('select * from user where userid = ?', [id]);
+    } else {
+        const result = connection.query('select * from user where userid = ?', [id]);   
         console.log(result);
-        if(result.length == 0) {
+        // res.send(result);
+        if (result.length == 0) {
             template_nodata(res);
         } else {
             template_result(result, res);
         }
     }
-
 })
 
 //Request o, Query x
@@ -218,9 +215,7 @@ app.post('/insert', (req, res) => {
             console.log(result);
             res.redirect('/selectQuery?id=' +id);
         }
-
     }
-
 })
 
 app.post('/update', (req, res) => {
@@ -237,7 +232,6 @@ app.post('/update', (req, res) => {
             console.log(result);
             res.redirect('/selectQuery?id=' + req.body.id);
         }
-
     }
 })
 
