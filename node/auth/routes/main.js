@@ -56,7 +56,7 @@ function template_result(result,res) {
                 template += `
                     <tr>
                         <td>${result[i]['userid']}</td>
-                        <td>${result[i]['userid']}</td>
+                        <td>${result[i]['passwd']}</td>
                     </tr>
                     `;
             }
