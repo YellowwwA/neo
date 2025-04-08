@@ -91,5 +91,3 @@ print(f'after : {dict}')
 #clear
 dict.clear()
 print(f'dict : {dict}')
-
-#test
