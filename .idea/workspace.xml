@@ -4,344 +4,95 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98861bc-c00c-4f5a-aba0-798bd6ccb108" name="변경" comment="python_exception2" />
+    <list default="true" id="136f42f1-c273-42f7-9a80-585f1da01b0a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;YellowwwA&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/YellowwwA/neo.git&quot;,
-    &quot;accountId&quot;: &quot;d53a0740-4355-4404-862c-56790bd18dcd&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2vQSy9eGXGILfhAKaAUK5xpKFoY" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2vTjmWBbpUMYFHxnaUcR2LEl4Fo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.calc_func.executor": "Run",
-    "Python.calc_func_call.executor": "Run",
-    "Python.class_animal.executor": "Run",
-    "Python.class_animal_call.executor": "Run",
-    "Python.class_calc_call.executor": "Run",
-    "Python.class_rectangle.executor": "Run",
-    "Python.class_rectangle_call.executor": "Run",
-    "Python.p06_helloworld.executor": "Run",
-    "Python.p07_pibonacci.executor": "Run",
-    "Python.p07_var.executor": "Run",
-    "Python.p09_list.executor": "Run",
-    "Python.p09_str.executor": "Run",
-    "Python.p11_tuple.executor": "Run",
-    "Python.p12_set.executor": "Run",
-    "Python.p13_dictionary.executor": "Run",
-    "Python.p14_type.executor": "Run",
-    "Python.p16_indent.executor": "Run",
-    "Python.p16_indent2.executor": "Run",
-    "Python.p17_if.executor": "Run",
-    "Python.p17_if_2.executor": "Run",
-    "Python.p17_if_elif.executor": "Run",
-    "Python.p19_for1.executor": "Run",
-    "Python.p19_for2.executor": "Run",
-    "Python.p20_continue.executor": "Run",
-    "Python.p20_pass.executor": "Run",
-    "Python.p21_def_min.executor": "Run",
-    "Python.p21_def_min1.executor": "Run",
-    "Python.p22_global.executor": "Run",
-    "Python.p23_counter.executor": "Run",
-    "Python.p23_factorial.executor": "Run",
-    "Python.p24_lambda.executor": "Run",
-    "Python.p25_calc.executor": "Run",
-    "Python.p25_timer.executor": "Run",
-    "Python.p26_decorator1_notdeco.executor": "Run",
-    "Python.p26_decorator2.executor": "Run",
-    "Python.p26_decorator3_class.executor": "Run",
-    "Python.p27_generator.executor": "Run",
-    "Python.p27_generator_square.executor": "Run",
-    "Python.p28_coroutine.executor": "Run",
-    "Python.p29_generator_expr.executor": "Run",
-    "Python.p29_generator_expr_369.executor": "Run",
-    "Python.p29_list_comp.executor": "Run",
-    "Python.p31_class.executor": "Run",
-    "Python.p31_class2.executor": "Run",
-    "Python.p31_class3.executor": "Run",
-    "Python.p33_file1.executor": "Run",
-    "Python.p33_file2.executor": "Run",
-    "Python.p34_sys.executor": "Run",
-    "Python.p35_pickle.executor": "Run",
-    "Python.p36_exception1.executor": "Run",
-    "Python.p36_exception2.executor": "Run",
-    "Python.p36_exception3.executor": "Run",
-    "Python.p36_exception4.executor": "Run",
-    "Python.p36_exception5.executor": "Run",
-    "Python.p36_exception6.executor": "Run",
-    "Python.p36_raise.executor": "Run",
-    "Python.p37_threading1.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.p37_threading2.executor": "Run",
-    "Python.prime_func.executor": "Run",
-    "Python.prime_func_call.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/kibwa/Documents/GitHub/neo/python/pythonBasic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kibwa\Documents\GitHub\neo\python\pythonBasic" />
-      <recent name="C:\Users\kibwa\Documents\GitHub\neo\python\dataProject" />
-    </key>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info id="Bookmarks" side_tool="true" />
+      <window_info id="Merge Requests" />
+      <window_info id="Commit_Guest" show_stripe_button="false" />
+      <window_info id="Pull Requests" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32975262" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="HfCacheToolWindow" />
+      <window_info anchor="bottom" id="File Transfer" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3302696" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Python Packages" order="5" weight="0.1" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.3302696" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3302696" />
+      <window_info anchor="right" id="Endpoints" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
+    </layout>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
-        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.211" />
+        <option value="bundled-python-sdk-54db487c5011-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.211" />
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="a98861bc-c00c-4f5a-aba0-798bd6ccb108" name="변경" comment="" />
-      <created>1744076057600</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="136f42f1-c273-42f7-9a80-585f1da01b0a" name="Changes" comment="" />
+      <created>1744176125236</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744076057600</updated>
-      <workItem from="1744076059071" duration="1305000" />
-      <workItem from="1744077375410" duration="20277000" />
-      <workItem from="1744156923096" duration="84000" />
-      <workItem from="1744157014098" duration="9000" />
-      <workItem from="1744157034842" duration="91000" />
-      <workItem from="1744166770323" duration="7943000" />
+      <updated>1744176125236</updated>
+      <workItem from="1744176129437" duration="922000" />
     </task>
-    <task id="LOCAL-00001" summary="python new">
-      <option name="closed" value="true" />
-      <created>1744077640082</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1744077640082</updated>
-    </task>
-    <task id="LOCAL-00002" summary="python new">
-      <option name="closed" value="true" />
-      <created>1744077659988</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1744077659988</updated>
-    </task>
-    <task id="LOCAL-00003" summary="p07">
-      <option name="closed" value="true" />
-      <created>1744078569225</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1744078569225</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1744079634208</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1744079634208</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1744079648484</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1744079648484</updated>
-    </task>
-    <task id="LOCAL-00006" summary="python basic">
-      <option name="closed" value="true" />
-      <created>1744082909436</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1744082909436</updated>
-    </task>
-    <task id="LOCAL-00007" summary="test">
-      <option name="closed" value="true" />
-      <created>1744087963674</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1744087963674</updated>
-    </task>
-    <task id="LOCAL-00008" summary="test">
-      <option name="closed" value="true" />
-      <created>1744087991847</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1744087991847</updated>
-    </task>
-    <task id="LOCAL-00009" summary="python_func">
-      <option name="closed" value="true" />
-      <created>1744093277185</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1744093277185</updated>
-    </task>
-    <task id="LOCAL-00010" summary="python_gen,list,class">
-      <option name="closed" value="true" />
-      <created>1744100647731</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1744100647731</updated>
-    </task>
-    <task id="LOCAL-00011" summary="class_calc">
-      <option name="closed" value="true" />
-      <created>1744167287136</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1744167287136</updated>
-    </task>
-    <task id="LOCAL-00012" summary="python_basic">
-      <option name="closed" value="true" />
-      <created>1744175172544</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1744175172544</updated>
-    </task>
-    <task id="LOCAL-00013" summary="python_exception">
-      <option name="closed" value="true" />
-      <created>1744178573324</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1744178573324</updated>
-    </task>
-    <task id="LOCAL-00014" summary="python_exception2">
-      <option name="closed" value="true" />
-      <created>1744180367837</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1744180367837</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="python new" />
-    <MESSAGE value="p07" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <MESSAGE value="python basic" />
-    <MESSAGE value="test" />
-    <MESSAGE value="Revert &quot;.&quot;&#10;&#10;This reverts commit 65f7a9f6558d53f982e02e8ddd452ac479c616b2." />
-    <MESSAGE value="python_func" />
-    <MESSAGE value="python_gen,list,class2" />
-    <MESSAGE value="python_gen,list,class" />
-    <MESSAGE value="class_calc" />
-    <MESSAGE value="python_basic" />
-    <MESSAGE value="python_exception" />
-    <MESSAGE value="python_exception2" />
-    <option name="LAST_COMMIT_MESSAGE" value="python_exception2" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/neo$p22_global.coverage" NAME="p22_global Coverage Results" MODIFIED="1744090927397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p25_timer.coverage" NAME="p25_timer Coverage Results" MODIFIED="1744093802949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p31_class.coverage" NAME="p31_class Coverage Results" MODIFIED="1744098568542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p36_exception3.coverage" NAME="p36_exception3 Coverage Results" MODIFIED="1744177080110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p37_threading2.coverage" NAME="p37_threading2 Coverage Results" MODIFIED="1744180246150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p26_decorator3_class.coverage" NAME="p26_decorator3_class Coverage Results" MODIFIED="1744094453119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$class_animal.coverage" NAME="class_animal Coverage Results" MODIFIED="1744168280157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p09_list.coverage" NAME="p09_list Coverage Results" MODIFIED="1744080111539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p19_for1.coverage" NAME="p19_for1 Coverage Results" MODIFIED="1744090037319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p14_type.coverage" NAME="p14_type Coverage Results" MODIFIED="1744088647348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$class_rectangle_call.coverage" NAME="class_rectangle_call Coverage Results" MODIFIED="1744168608143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p36_exception6.coverage" NAME="p36_exception6 Coverage Results" MODIFIED="1744177498416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p29_generator_expr.coverage" NAME="p29_generator_expr Coverage Results" MODIFIED="1744096796603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p16_indent.coverage" NAME="p16_indent Coverage Results" MODIFIED="1744088852027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p23_counter.coverage" NAME="p23_counter Coverage Results" MODIFIED="1744091279837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$prime_func_call.coverage" NAME="prime_func_call Coverage Results" MODIFIED="1744093240765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$class_rectangle.coverage" NAME="class_rectangle Coverage Results" MODIFIED="1744168272210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p36_exception1.coverage" NAME="p36_exception1 Coverage Results" MODIFIED="1744176736689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p36_exception4.coverage" NAME="p36_exception4 Coverage Results" MODIFIED="1744177170469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p28_coroutine.coverage" NAME="p28_coroutine Coverage Results" MODIFIED="1744096378191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p31_class2.coverage" NAME="p31_class2 Coverage Results" MODIFIED="1744100562140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p19_for2.coverage" NAME="p19_for2 Coverage Results" MODIFIED="1744090133779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p27_generator_square.coverage" NAME="p27_generator_square Coverage Results" MODIFIED="1744095479238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p20_pass.coverage" NAME="p20_pass Coverage Results" MODIFIED="1744090440258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p36_raise.coverage" NAME="p36_raise Coverage Results" MODIFIED="1744177718379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p13_dictionary.coverage" NAME="p13_dictionary Coverage Results" MODIFIED="1744082873728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$class_animal_call.coverage" NAME="class_animal_call Coverage Results" MODIFIED="1744168277348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p17_if_2.coverage" NAME="p17_if_2 Coverage Results" MODIFIED="1744089417053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p36_exception5.coverage" NAME="p36_exception5 Coverage Results" MODIFIED="1744177348620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p29_list_comp.coverage" NAME="p29_list_comp Coverage Results" MODIFIED="1744096620312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p24_lambda.coverage" NAME="p24_lambda Coverage Results" MODIFIED="1744091754947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p16_indent2.coverage" NAME="p16_indent2 Coverage Results" MODIFIED="1744089174269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p33_file1.coverage" NAME="p33_file1 Coverage Results" MODIFIED="1744175575726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p17_if.coverage" NAME="p17_if Coverage Results" MODIFIED="1744089327234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p26_decorator1_notdeco.coverage" NAME="p26_decorator1_notdeco Coverage Results" MODIFIED="1744093900307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p06_helloworld.coverage" NAME="p06_helloworld 커버리지 결과" MODIFIED="1744077249587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p35_pickle.coverage" NAME="p35_pickle Coverage Results" MODIFIED="1744176576435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p09_str.coverage" NAME="p09_str Coverage Results" MODIFIED="1744080225528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p12_set.coverage" NAME="p12_set Coverage Results" MODIFIED="1744081895944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$calc_func.coverage" NAME="calc_func Coverage Results" MODIFIED="1744091919865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p29_generator_expr_369.coverage" NAME="p29_generator_expr_369 Coverage Results" MODIFIED="1744098274803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p07_pibonacci.coverage" NAME="p07_pibonacci Coverage Results" MODIFIED="1744078480194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p21_def_min1.coverage" NAME="p21_def_min1 Coverage Results" MODIFIED="1744090733863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p23_factorial.coverage" NAME="p23_factorial Coverage Results" MODIFIED="1744091523899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p27_generator.coverage" NAME="p27_generator Coverage Results" MODIFIED="1744095299161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p31_class3.coverage" NAME="p31_class3 Coverage Results" MODIFIED="1744100061762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p37_threading1.coverage" NAME="p37_threading1 Coverage Results" MODIFIED="1744179789624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$prime_func.coverage" NAME="prime_func Coverage Results" MODIFIED="1744092907215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p34_sys.coverage" NAME="p34_sys Coverage Results" MODIFIED="1744176147527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p20_continue.coverage" NAME="p20_continue Coverage Results" MODIFIED="1744090273423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p17_if_elif.coverage" NAME="p17_if_elif Coverage Results" MODIFIED="1744089840280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p26_decorator2.coverage" NAME="p26_decorator2 Coverage Results" MODIFIED="1744094050666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p25_calc.coverage" NAME="p25_calc Coverage Results" MODIFIED="1744093805707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p33_file2.coverage" NAME="p33_file2 Coverage Results" MODIFIED="1744175861433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p11_tuple.coverage" NAME="p11_tuple Coverage Results" MODIFIED="1744080790224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p36_exception2.coverage" NAME="p36_exception2 Coverage Results" MODIFIED="1744176898064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pythonBasic" />
-    <SUITE FILE_PATH="coverage/neo$p21_def_min.coverage" NAME="p21_def_min Coverage Results" MODIFIED="1744090636538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$class_calc_call.coverage" NAME="class_calc_call Coverage Results" MODIFIED="1744168292892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$calc_func_call.coverage" NAME="calc_func_call Coverage Results" MODIFIED="1744092013897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
-    <SUITE FILE_PATH="coverage/neo$p07_var.coverage" NAME="p07_var Coverage Results" MODIFIED="1744077516564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/dataProject" />
   </component>
 </project>
