@@ -3,7 +3,7 @@ from pandas import Series
 myindex1 = ['강호민', '유재준', '김제명', '신동진']
 mylist1 = [30,40,50,60]
 
-myindex2 = ['강호민', '유재준', '김제명', '신동진']
+myindex2 = ['강호민', '유재준', '김제명', '이수진']
 mylist2 = [20,40,60,70]
 
 myseries1 = Series(data=mylist1, index=myindex1)
