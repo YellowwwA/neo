@@ -52,7 +52,7 @@ class ChickenStore():
 
         self.mycolumns = ['brand', 'store', 'sido', 'gungu', 'address']
 
-        if self.brandName in ['pelicana']:
+        if self.brandName in ['pelicana', 'nene', 'cheogajip', 'goobne']:
             self.mycolumns.append('phone')
         else:
             pass
