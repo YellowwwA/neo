@@ -27,6 +27,7 @@ node/**/package-lock.json
 .idea
 python/**/.venv
 pyton/**/__pycache__/
+**/secret.json
 
 ## mongodb
 mongodb/backup
