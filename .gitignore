@@ -25,6 +25,7 @@ node/**/package-lock.json
 
 ## python
 .idea
+secret.json
 python/**/.venv
 pyton/**/__pycache__/
 **/secret.json
