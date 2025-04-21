@@ -1,0 +1,55 @@
+<!-- views/index.html -->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ollama Web Interface</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>어린이 보행자 교통사고</h1>
+      <hr />
+      <div class="year-select-wrap">
+        <select id="year-select" name="year" required>
+          <option value="1">연도 선택</option>
+          <option value="2">2016</option>
+          <option value="3">2017</option>
+          <option value="4">2018</option>
+          <option value="5">2019</option>
+          <option value="6">2020</option>
+          <option value="7">2021</option>
+          <option value="8">2022</option>
+          <option value="9">2023</option>
+        </select>
+        <select id="region-select" name="region" required>
+            <option value="">지역 선택</option>
+            <option value="">서울</option>
+            <option value="">부산</option>
+            <option value="">인천</option>
+            <option value="">대전</option>
+            <option value="">대구</option>
+            <option value="">광주</option>
+            <option value="">울산</option>
+            <option value="">세종</option>
+            <option value="">경기</option>
+            <option value="">강원</option>
+            <option value="">충북</option>
+            <option value="">충남</option>
+            <option value="">경북</option>
+            <option value="">경남</option>
+            <option value="">전북</option>
+            <option value="">전남</option>
+            <option value="">제주</option>
+          </select>
+        <button type="submit">확인하기</button>
+      </div>
+      </form>
+      <div id="result"></div>
+      <hr />
+      <h2>요청/응답 로그</h2>
+      <ul id="log"></ul>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>

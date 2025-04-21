@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>어린이 사고 통계</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- 뭔지 모르겠는데 아래 코드를 여기다 써야 js에서 axios를 인식할수있대요..-->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <h2>어린이 사고 통계</h2>
+
+  <label for="yearSelect">연도:</label>
+  <select id="yearSelect">
+    <option value="">선택</option>
+    <option value="2016">2016</option>
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+    <option value="2019">2019</option>
+    <option value="2020">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    <!-- 필요한 연도 추가 -->
+  </select>
+
+  <label for="regionSelect">지역:</label>
+  <select id="regionSelect">
+    <option value="">선택</option>
+    <option value="서울">서울</option>
+    <option value="부산">부산</option>
+    <option value="인천">인천</option>
+    <option value="대전">대전</option>
+    <option value="대구">대구</option>
+    <option value="광주">광주</option>
+    <option value="울산">울산</option>
+    <option value="세종">세종</option>
+    <option value="경기">경기</option>
+    <option value="강원">강원</option>
+    <option value="충북">충북</option>
+    <option value="충남">충남</option>
+    <option value="경북">경북</option>
+    <option value="경남">경남</option>
+    <option value="전북">전북</option>
+    <option value="전남">전남</option>
+    <option value="제주">제주주</option>
+    <!-- 필요한 지역 추가 -->
+  </select>
+
+  <button id="confirmBtn">확인</button>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
