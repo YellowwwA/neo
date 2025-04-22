@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
     const confirmBtn = document.getElementById("confirmBtn");
-
     confirmBtn.addEventListener("click", async function () {
         const year = document.getElementById("yearSelect").value;
         const region = document.getElementById("regionSelect").value;
@@ -11,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         try {
-            const response = await axios.get(`http://192.168.1.40:3000/r_getkidsacc?year=${year}&region=${region}`);
+            const response = await axios.get(`http://192.168.1.40:3000/r_getKidsAcc?year=${year}&region=${region}`);
             console.log(response.data);
 
             // 결과 표시

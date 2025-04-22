@@ -25,7 +25,7 @@ async def GetKid():
     result = session.query(Kids)
     return result.all()
     
-@app.get('/r_getkidsacc')
+@app.get('/r_getKidsAcc')
 async def GetKidsAcc(year=None, region=None):
 
     if (year is None) or (region is None):
