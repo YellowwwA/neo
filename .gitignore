@@ -26,6 +26,7 @@ node/**/package-lock.json
 **/package-lock.json
 **/package.json
 xfirst_project/safe
+testFP
 
 ## python
 .idea

@@ -24,7 +24,33 @@
          // 이미지가 스크롤 위치에 따라 아래로 움직이게
          image.style.transform = `translateY(${scrollPosition * 0.2}px)`;
        });
+
+/*
+       const ctx = document.getElementById('myChart').getContext('2d');
+
+       const mychart = new Chart(ctx, {
+         type: 'doughnut',
+         data: data,
+         options: {
+           responsive: true,
+           plugins: {
+             legend: {
+               position: 'top',
+             },
+             title: {
+               display: true,
+               text: 'Chart.js Doughnut Chart'
+             }
+           }
+         },
+       });
+*/
+
+
+
    </script>
+
+   <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
    <!-- Analytics -->
 
    <!-- Analytics END -->
@@ -282,11 +308,48 @@
 
                      <h1>&nbsp;&nbsp;&nbsp;노령 보행자 교통사고</h1>
                      <hr />
-                     <br><br>
-                     <img src="./DeathRate.png" width="500px" />
-                     <a href="./project/"><img src="img/lazyload-ph.png" data-src="img/arrow.svg"
+                     
+                     <canvas id="JGraph"></canvas>
+                     <script>
+                        const ctx = document.getElementById('JGraph').getContext('2d');
+                        const myChart = new Chart(ctx, {
+                            type: 'doughnut', // 차트 타입을 도넛으로 변경
+                            data: {
+                                labels: ['중간연령층', '어린이','노령층'],
+                                datasets: [{ //RBYGPO
+                                    label: 'Votes',
+                                    data: [36.6, 1.4, 62],
+                                    backgroundColor: [
+                                        'rgba(54, 162, 235, 0.6)',
+                                        'rgba(255, 206, 86, 0.6)',
+                                        'rgba(153, 102, 255, 0.6)',
+                                    ],
+                                    borderColor: [
+                                        'rgba(255, 255, 255, 1)' // 테두리 색을 흰색으로 하면 도넛 느낌 더 잘 나옴
+                                    ],
+                                    borderWidth: 2
+                                }]
+                            },
+                            options: {
+                                responsive: false,
+                                plugins: {
+                                    legend: {
+                                        position: 'top'
+                                    },
+                                    title: {
+                                        display: true,
+                                        text: '사망률'
+                                    }
+                                }
+                            }
+                        });
+                    </script>
+                     
+                     <!-- <img src="./DeathRate.png" width="500px" /> -->
+                     
+                     <!-- <a href="./project/"><img src="img/lazyload-ph.png" data-src="img/arrow.svg"
                            class="img-fluid mx-auto d-block arrow-btn lazyload" alt="arrow" data-bs-placement="top"
-                           data-bs-toggle="tooltip" title="View Project." width="40" height="40"></a>
+                           data-bs-toggle="tooltip" title="View Project." width="40" height="40"></a> -->
                   </div>
                </div>
                <div
