@@ -272,13 +272,21 @@ body{
 	justify-content:space-between;
 	align-items: center;
  }
- .bento-box{
+ .Jbento-box{
 	background-color:var(--swatch-var-3849);
 	width:100%;
 	position:relative;
 	padding:20px 20px 20px 40px;
 	border-radius:30px 30px 30px 30px;
- }
+  }
+  .bento-box{
+	background-color:var(--swatch-var-3849);
+	width:100%;
+	position:relative;
+	padding:20px 20px 20px 40px;
+	border-radius:30px 30px 30px 30px;
+	margin-bottom: 100px;
+  }
  .mini-heading{
 	font-size:20px;
 	font-weight:600;
@@ -497,22 +505,31 @@ body{
 	padding : 20px;
 	
 	font-family: sans-serif;
- 
-   }
-   
-   .quiz-box.small .quiz-question {
+  
+	}
+	
+	.quiz-box.small .quiz-question {
 	font-size: 20px;
 	margin-bottom: 12px;
 	color: #646464;
-   }
-   
-   .quiz-box.small .quiz-options {
+	}
+	
+	.quiz-box.small .quiz-options {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-   }
-   
-   .quiz-box.small .quiz-options li {
+	}
+ 
+	.quiz-box.small .Jquiz-options {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	}
+	
+	.quiz-box.small .quiz-options li {
 	display: flex;
 	align-items: flex-start;
 	background: #fff;
@@ -523,31 +540,65 @@ body{
 	font-size: 14px;
 	cursor: pointer;
 	transition: background 0.3s, border-color 0.3s;
-   }
-   
-   .quiz-box.small .quiz-options li:hover {
+	}
+ 
+	.quiz-box.small .Jquiz-options li {
+	display: flex;
+	align-items: flex-start;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 10px 14px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background 0.3s, border-color 0.3s;
+	}
+	
+	.quiz-box.small .quiz-options li:hover {
 	background: rgb(220, 221, 255)
-   }
-   .quiz-box.small .quiz-options li.Jquiz-options:hover {
+	}
+ 
+	.quiz-box.small .Jquiz-options li:hover {
+	background: rgb(220, 221, 255)
+	}
+ 
+	.quiz-box.small .quiz-options li.Jquiz-options:hover {
 	background:linear-gradient(335deg, rgb(253, 147, 230) 0%, rgb(220, 221, 255) 100%);
-   }
-   
-   .quiz-box.small .icon-number {
+	
+}
+ 
+/* .hover-text  {
+	display: none;
+  } */
+	
+	.quiz-box.small .Jquiz-options li.JJquiz-options:hover {
+	background:linear-gradient(335deg, rgb(253, 147, 230) 0%, rgb(220, 221, 255) 100%);
+	/* display: block; */
+}
+/* 
+li.JJquiz-options:hover .hover-text {
+	display: block;
+  } */
+
+
+	.quiz-box.small .icon-number {
 	display: inline-block;
+	/* align-items: center;
+	justify-content: center; */
 	background-color: #7ea6fd;
 	color: #fff;
 	width: 22px;
 	height: 22px;
 	font-size: 12px;
 	border-radius: 50%;
-	line-height: 22px;
+	line-height: 25px;
 	text-align: center;
 	margin-right: 10px;
 	flex-shrink: 0;
-   }
-   
- 
- 
+	}
+
+	
    .custom-select {
 	appearance: none; /* 기본 브라우저 스타일 제거 */
 	-webkit-appearance: none;
@@ -576,6 +627,52 @@ body{
    .result-card {
 	text-align: center;
    }
+
+
+
+   /*safsdasdf*/
+
+.JJJcontainer {
+	display: flex;
+	height: 100vh; /* 화면을 가득 채우기 */
+  }
+  
+  .JJimage-bar {
+	width: 100px;
+	height: 100%;
+	position: fixed;  /* 스크롤할 때 이미지가 화면에 고정되게 */
+	top: 0;
+	left: 100px;
+	display: flex;
+	align-items: flex-start; /* 이미지 위쪽에서 시작 */
+	justify-content: center;
+	transition: transform 0.2s ease-in-out;
+  }
+  .JJfixed-image {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 60px;
+	height:1000px;
+	opacity: 0.8; /* 약간 반투명하게 하면 더 background 느낌 */
+	z-index: 1;
+	
+  }
+  
+  
+  .JJscroll-image {
+	max-width: 80px;
+	max-height: 80px;
+	z-index: 2;
+  }
+
+
+  .JJJcontent {
+	margin-left: 0px; /* 이미지의 왼쪽 여백 */
+	padding: 0px;
+	 /* 스크롤을 만들기 위해 충분히 긴 콘텐츠 */
+  }
  /*
    .result-card {
    background-color: #eaf5ff;
@@ -813,4 +910,19 @@ body{
 	}
 	.primary-btn{
 	}   
+ }
+
+
+ .safe-select {
+	width: 80px;
+	padding: 4px;
+ }
+
+ .safe-btn {
+	width: 80px;
+	padding: 4px;
+ }
+
+ html {
+	scroll-behavior: smooth;
  }
