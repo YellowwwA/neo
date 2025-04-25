@@ -28,12 +28,17 @@
       function showMessage() {
          document.getElementById("quizmessage").style.display = "block";
       }
+
+      window.onload = async function () {
+
+         const region = document.getElementById("regionSelect").value;
+         const iframe = document.getElementById("safeZoneFrame");
+         const url = `http://192.168.1.38:8000/safeZone?region=${region}`;
+
+         iframe.src = url;
+      };
    </script>
    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-   <!-- Analytics -->
-
-   <!-- Analytics END -->
-
 </head>
 
 <body>
@@ -63,7 +68,7 @@
                               <div class="row">
                                  <div class="col-12 mb-2 col-sm-7 col-md-8 col-lg-9">
                                     <h1 class="mini-heading mb-0 tc-6153">
-                                       Accident&nbsp;Info
+                                       Accident&nbsp;Infocontact Me
                                     </h1>
                                     <h2 class="mb-0 tc-2190">
                                        교통약자 보행 교통사고
@@ -71,7 +76,8 @@
                                  </div>
                                  <div
                                     class="col-12 align-self-center text-lg-end text-sm-end col-sm-5 col-md-4 col-lg-3">
-                                    <a href="./contact/" class="btn btn-d btn-rd box-btn primary-btn">Contact Me</a>
+                                    <a href="./contact/" class="btn btn-d btn-rd box-btn primary-btn">Contact
+                                       Me</a>
                                  </div>
                               </div>
                            </div>
@@ -84,7 +90,7 @@
                         href="#kids-section" class="a-btn text-lg-left token-link">Kids</a>
                      <a href="#senior-section" class="a-btn text-lg-left token-link">Senior</a>
                      <a href="#compare-section" class="a-btn text-lg-left token-link">Compare</a>
-                     <a href="#policy-section" class="a-btn text-lg-left token-link">Policy</a>
+                     <!-- <a href="#policy-section" class="a-btn text-lg-left token-link">Policy</a> -->
                      <a href="#safeZone-section" class="a-btn text-lg-left token-link">Safe Zone
                         Map</a><!-- <a href="./catergory/" class="a-btn text-lg-left token-link">Safe Zone Map</a><a href="./catergory/" class="a-btn text-lg-left token-link">Icon Design</a><a href="./catergory/" class="a-btn text-lg-left token-link">Copy Writing</a> -->
                   </div>
@@ -159,15 +165,14 @@
                      </div>
                   </div>
 
-                  <div id="kids-section" style="position: relative; top:-200px;">
-                  </div>
+                  <div id="kids-section" style="position: relative; top:-200px;"></div>
                   <!-- <div src="./ppt.png"> </div> -->
                   <div
                      class="col-md-6 text-center text-md-start mb-4 col-lg-6 text-sm-start pe-0 ps-0 col-sm-6 ps-sm-2 pe-sm-2 mb-sm-2 mb-lg-4 ps-lg-3 pe-lg-3">
                      <!-- 그래프 이미지-->
                      <div id="kids-section" class="bento-box Jbg-img-box text-start Jbox-bg-1">
 
-                        <h1>&nbsp;&nbsp;&nbsp;어린이 보행자 교통사고</h1>
+                        <h1 style="text-align: center;">어린이 보행자 교통사고</h1>
                         <hr />
                         <canvas id="mixChart" width="500" height="350"></canvas>
                      </div>
@@ -178,9 +183,9 @@
                      class="col-md-12 text-md-start mb-4 col-lg-6 text-sm-start text-start pe-0 ps-0 col-sm-6 pe-sm-2 ps-sm-2 mb-sm-3 mb-lg-4 ps-lg-3 pe-lg-3">
                      <div class="bento-box Jbg-img-box">
                         <div class="container">
-                           <h1>&nbsp;&nbsp;&nbsp;어린이 보행자 교통사고</h1>
+                           <h1 style="text-align: center;">어린이 보행자 교통사고</h1>
                            <hr />
-                           <div class="year-select-wrap">
+                           <div class="year-select-wrap" style="text-align: center;">
                               <label for="kids_year">년도 선택:</label>
                               <select id="kids_year" class="custom-select">
                                  <option value="2023">2023년</option>
@@ -247,7 +252,7 @@
                      class="col-md-6 text-center text-md-start mb-4 col-lg-6 text-sm-start pe-0 ps-0 col-sm-6 ps-sm-2 pe-sm-2 mb-sm-2 mb-lg-4 ps-lg-3 pe-lg-3">
                      <!-- 그래프 이미지-->
                      <div class="bento-box Jbg-img-box text-start">
-                        <h1>&nbsp;&nbsp;&nbsp;고령 보행자 교통사고</h1>
+                        <h1 style="text-align: center;">고령 보행자 교통사고</h1>
                         <hr />
                         <canvas id="JGraph"></canvas>
                      </div>
@@ -256,9 +261,9 @@
                      class="col-md-12 text-md-start mb-4 col-lg-6 text-sm-start text-start pe-0 ps-0 col-sm-6 pe-sm-2 ps-sm-2 mb-sm-3 mb-lg-4 ps-lg-3 pe-lg-3">
                      <div class="bento-box Jbg-img-box">
                         <div class="container">
-                           <h1>&nbsp;&nbsp;&nbsp;고령 보행자 교통사고</h1>
+                           <h1 style="text-align: center;">고령 보행자 교통사고</h1>
                            <hr />
-                           <div class="year-select-wrap">
+                           <div class="year-select-wrap" style="text-align: center;">
                               <label for="senior_year">년도 선택:</label>
                               <select id="senior_year" class="custom-select">
                                  <option value="2023">2023년</option>
@@ -270,6 +275,7 @@
                                  <option value="2017">2017년</option>
                                  <option value="2016">2016년</option>
                               </select>
+
                               &nbsp;&nbsp;
                               <label for="senior_region">지역 선택:</label>
                               <select id="senior_region" class="custom-select">
@@ -295,24 +301,25 @@
                               &nbsp;&nbsp;
                               <button onclick="getSeniorAccidentData()"
                                  class="btn btn-d Jbtn-rd Jbox-btn Jprimary-btn">조회</button>
-
-                              <hr />
-                              <div id="senior_result"></div>
-                              <br>
-
-                              <h5 class="result-card">교통사고 사망자중 평균적으로<strong>약 50%이상은</strong>고령자 입니다.</h5>
-
                            </div>
-
-                           </form>
+                           <hr />
+                           <div id="senior_result"></div>
                            <br>
+
+                           <h5 class="result-card">교통사고 사망자중 평균적으로<strong>약 50%이상은</strong> 고령자 입니다.</h5>
+
                         </div>
 
+                        </form>
+                        <br>
                      </div>
+
                   </div>
+                  <!-- </div> -->
                   <!-- 고령 보행자 교통사고 끝-->
-                  <div id="compare-section" style="position: relative; top:-200px;">
-                  </div>
+
+
+                  <div id="compare-section" style="position: relative; top:-200px;"></div>
                   <!-- 10만명당  -->
                   <div
                      class="col-md-6 text-center text-md-start mb-4 col-lg-6 text-sm-start pe-0 ps-0 col-sm-6 ps-sm-2 pe-sm-2 mb-sm-2 mb-lg-4 ps-lg-3 pe-lg-3">
@@ -329,9 +336,9 @@
                      class="col-md-12 text-md-start mb-4 col-lg-6 text-sm-start text-start pe-0 ps-0 col-sm-6 pe-sm-2 ps-sm-2 mb-sm-3 mb-lg-4 ps-lg-3 pe-lg-3">
                      <div class="bento-box Jbg-img-box">
                         <div class="container">
-                           <h1>&nbsp;&nbsp;&nbsp;인구10만명당 교통사고 현황</h1>
+                           <h1 style="text-align: center;">인구10만명당 교통사고 현황</h1>
                            <hr />
-                           <div class="year-select-wrap">
+                           <div class="year-select-wrap" style="text-align: center;">
                               <label for="per10_year">년도 선택:</label>
                               <select id="per10_year" class="custom-select">
                                  <option value="2023">2023년</option>
@@ -351,7 +358,7 @@
                               <br>
 
                               <h5 class="result-card">인구 10만명당 보행자 사고건수:<br><strong>고령 보행자가</strong> 어린이 보행자의 <ng>
-                                    약2배
+                                    약2배 이상
                                  </ng>
                               </h5>
                            </div>
@@ -361,57 +368,58 @@
 
                      </div>
                   </div>
-                  <!-- 10만명당 끝-->
-               </div>
-               <div id="policy-section" style="position: relative; top:-100px;">
-               </div>
-               <div style="display: flex; justify-content: center; align-items: center;">
-                  <img src="ppt.png" width="80%" height="90%">
-               </div>
-               <br><br><br><br><br><br>
-               <!-- 정책 제안 끝-->
 
-               <div id="safeZone-section" style="position: relative; top:-100px;">
+                  <!-- 10만명당 끝-->
+                  <!-- </div> -->
+                  <!-- <div id="policy-section" style="position: relative; top:-100px;"></div>
+                  <div style="display: flex; justify-content: center; align-items: center;">
+                     <img src="ppt.png" width="80%" height="90%">
+                  </div> -->
+
+
+                  <div id="safeZone-section" style="position: relative; top:100px;"></div>
+                  <br><br><br><br><br><br>
+                  <!-- <div id="kids-section" style="position: relative; top:-200px;"></div> -->
+                  <!-- bloc-0 END -->
+                  <div
+                     style=" display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 20px;">
+                     <h2 id="safeZone-section">보호구역 현황</h2>
+                     <select id="regionSelect" class="safe-select custom-select">
+                        <option value="서울">서울</option>
+                        <option value="인천">인천</option>
+                        <option value="경기">경기</option>
+                        <option value="광주">광주</option>
+                        <option value="대구">대구</option>
+                        <option value="부산">부산</option>
+                        <option value="충북">충북</option>
+                        <option value="충남">충남</option>
+                        <option value="제주">제주</option>
+                        <!-- 추가 필요 -->
+                     </select>
+                     <button onclick="safeZone()" class="safe-btn btn btn-d Jbtn-rd Jbox-btn Jprimary-btn">조회</button>
+                  </div>
+                  <br>
+                  <div style="display: flex; justify-content: center;">
+                     <iframe id="safeZoneFrame" width="900px" height="900px"
+                        style="display: block; margin: 0 auto;"></iframe>
+                  </div>
+                  <!-- ScrollToTop Button -->
+                  <button aria-label="Scroll to top button" class="bloc-button btn btn-d scrollToTop"
+                     onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                        viewBox="0 0 32 32">
+                        <path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13" />
+                     </svg></button>
+                  <!-- ScrollToTop Button END-->
                </div>
-               <!-- bloc-0 END -->
-               <div style=" display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 20px;">
-                  <h2>보호구역 현황</h2>
-                  <select id="regionSelect" class="safe-select custom-select">
-                     <option value="서울">서울</option>
-                     <option value="인천">인천</option>
-                     <option value="경기">경기</option>
-                     <option value="광주">광주</option>
-                     <option value="대구">대구</option>
-                     <option value="부산">부산</option>
-                     <option value="충북">충북</option>
-                     <option value="충남">충남</option>
-                     <option value="제주">제주</option>
-                     <!-- 추가 필요 -->
-                  </select>
-                  <button onclick="safeZone()" class="safe-btn btn btn-d Jbtn-rd Jbox-btn Jprimary-btn">조회</button>
-               </div>
-               <br>
-               <div style="display: flex; justify-content: center;">
-                  <iframe id="safeZoneFrame" width="900px" height="900px"
-                     style="display: block; margin: 0 auto;"></iframe>
-               </div>
-               <!-- ScrollToTop Button -->
-               <button aria-label="Scroll to top button" class="bloc-button btn btn-d scrollToTop"
-                  onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
-                     viewBox="0 0 32 32">
-                     <path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13" />
-                  </svg></button>
-               <!-- ScrollToTop Button END-->
             </div>
          </div>
       </div>
-   </div>
-   <!-- Additional JS -->
-   <script src="./js/bootstrap.bundle.min.js?2023"></script>
-   <script src="./js/blocs.min.js?1610"></script>
-   <script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
-   <script src="./js/script.js"></script>
-   <script type="module" src="./js/acquisitions.js"></script>
+      <!-- Additional JS -->
+      <script src="./js/bootstrap.bundle.min.js?2023"></script>
+      <script src="./js/blocs.min.js?1610"></script>
+      <script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
+      <script src="./js/script.js"></script>
+      <script type="module" src="./js/acquisitions.js"></script>
 </body>
 
 </html>
