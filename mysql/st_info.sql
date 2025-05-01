@@ -1,3 +1,5 @@
+use testdb;
+
 CREATE TABLE `st_info` (
   `ST_ID` int(11) NOT NULL,
   `NAME` varchar(20) DEFAULT NULL,
