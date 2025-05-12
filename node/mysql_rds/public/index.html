@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Info</title>
+    <style>
+        table {
+            margin: auto;
+            margin-top: 80px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="student-table">
+        <tr>
+            <th>ST_ID</th>
+            <th>NAME</th>
+            <th>DEPT</th>
+        </tr>
+    </table>
+
+    <script>
+        fetch("/st_info")
+            .then(res => res.json())
+            .then(data => {
+                const table = document.getElementById("student-table");
+                data.forEach(row => {
+                    const tr = document.createElement("tr");
+                    tr.innerHTML = `
+            <td>${row.ST_ID}</td>
+            <td>${row.NAME}</td>
+            <td>${row.DEPT}</td>
+          `;
+                    table.appendChild(tr);
+                });
+            });
+    </script>
+</body>
+
+</html>
