@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: weathers
-          image: seoyerin307/weathers
+          image: kibwa14/weathers
           ports:
             - containerPort: 8000 # container port(pod port)
