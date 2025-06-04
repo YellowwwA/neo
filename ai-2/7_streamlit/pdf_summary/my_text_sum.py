@@ -59,7 +59,7 @@ def translate_english_to_korean_using_openAI(text):
 
     return assistant_reply
 
-def translate_english_to_korean_using_deepl(text):
+def translate_english_to_korean_using_deepL(text):
     translator = deepl.Translator(os.getenv('DEEPL_API_KEY'))
     result = translator.translate_text(text, target_lang='KO')
     
