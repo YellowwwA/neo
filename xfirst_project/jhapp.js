@@ -5,7 +5,7 @@ const PORT = 80
 
 // 미들웨어
 app.use(express.json())
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({ extended: true }))
 app.use(express.static(path.join(__dirname, 'public')));
 
 // 뷰 엔진 설정 (HTML 렌더링)
@@ -21,6 +21,6 @@ app.engine('html', require('ejs').renderFile);
 const mainRouter = require('./controllers/mainController');
 app.use('/', mainRouter)
 
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   console.log("80 port : Server Started~!!");
 })
